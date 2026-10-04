@@ -27,10 +27,10 @@
 
 <p align="center">
 <!-- PROJECTS:START -->
-  <a href="https://github.com/alishaaverma?tab=repositories"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-0.svg" width="49%" alt="Featured project 1"/></a>
-  <a href="https://github.com/alishaaverma?tab=repositories"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-1.svg" width="49%" alt="Featured project 2"/></a>
-  <a href="https://github.com/alishaaverma?tab=repositories"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-2.svg" width="49%" alt="Featured project 3"/></a>
-  <a href="https://github.com/alishaaverma?tab=repositories"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-3.svg" width="49%" alt="Featured project 4"/></a>
+  <a href="https://github.com/alishaaverma/custom-vpn"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-0.svg" width="49%" alt="Featured project 1"/></a>
+  <a href="https://github.com/alishaaverma/OccasionHub_Project"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-1.svg" width="49%" alt="Featured project 2"/></a>
+  <a href="https://github.com/alishaaverma/IcecreamSite"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-2.svg" width="49%" alt="Featured project 3"/></a>
+  <a href="https://github.com/alishaaverma/VideoCompressor"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/project-3.svg" width="49%" alt="Featured project 4"/></a>
 <!-- PROJECTS:END -->
 </p>
 
