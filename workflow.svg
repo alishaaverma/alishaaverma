@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="178" viewBox="0 0 850 178" fill="none" role="img" aria-label="Developer Workflow"><title>Developer Workflow</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+@keyframes step{0%,100%{opacity:0}5%,14%{opacity:.45}24%{opacity:0}}.step{opacity:0;animation:step 4.8s ease-in-out infinite}</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="849" height="177" rx="14" fill="url(#bgg)" stroke="#1f2a38"/><rect x="1" y="1" width="848" height="176" rx="14" fill="url(#grid)"/><rect x="1" y="80" width="848" height="97" rx="14" fill="url(#emberg)"/><g class="rise" style="animation-delay:0.00s"><rect x="24" y="20" width="30" height="30" rx="7" fill="#1a1109" stroke="#ff8c42" filter="url(#glow)"/><text x="39.0" y="40.0" text-anchor="middle" font-size="14" font-weight="700" class="orange">17</text><text x="66" y="41" font-size="19" font-weight="700">Developer Workflow</text><text x="66" y="58" font-size="11" class="muted">My development process from idea to production.</text></g><path d="M86,98 L152,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><path d="M188,98 L254,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><path d="M290,98 L356,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><path d="M392,98 L458,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><path d="M494,98 L560,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><path d="M596,98 L662,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><path d="M698,98 L764,98" stroke="#ff8c42" stroke-opacity=".5" class="flow"/><g class="pop" style="animation-delay:0.10s"><polygon points="68.0,81.0 82.8,89.5 82.8,106.5 68.0,115.0 53.2,106.5 53.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="68.0,81.0 82.8,89.5 82.8,106.5 68.0,115.0 53.2,106.5 53.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:0.0s;animation-duration:4.8s"/><text x="68" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">1</text></g><g class="rise" style="animation-delay:0.30s"><text x="68" y="136" text-anchor="middle" font-size="11" font-weight="700">Idea</text><text x="68" y="150" text-anchor="middle" font-size="8.6" class="muted">Understand needs</text></g><g class="pop" style="animation-delay:0.20s"><polygon points="170.0,81.0 184.8,89.5 184.8,106.5 170.0,115.0 155.2,106.5 155.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="170.0,81.0 184.8,89.5 184.8,106.5 170.0,115.0 155.2,106.5 155.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:0.6s;animation-duration:4.8s"/><text x="170" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">2</text></g><g class="rise" style="animation-delay:0.40s"><text x="170" y="136" text-anchor="middle" font-size="11" font-weight="700">Design</text><text x="170" y="150" text-anchor="middle" font-size="8.6" class="muted">Plan arch &amp; UI/UX</text></g><g class="pop" style="animation-delay:0.30s"><polygon points="272.0,81.0 286.8,89.5 286.8,106.5 272.0,115.0 257.2,106.5 257.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="272.0,81.0 286.8,89.5 286.8,106.5 272.0,115.0 257.2,106.5 257.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:1.2s;animation-duration:4.8s"/><text x="272" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">3</text></g><g class="rise" style="animation-delay:0.50s"><text x="272" y="136" text-anchor="middle" font-size="11" font-weight="700">Develop</text><text x="272" y="150" text-anchor="middle" font-size="8.6" class="muted">Frontend + Backend</text></g><g class="pop" style="animation-delay:0.40s"><polygon points="374.0,81.0 388.8,89.5 388.8,106.5 374.0,115.0 359.2,106.5 359.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="374.0,81.0 388.8,89.5 388.8,106.5 374.0,115.0 359.2,106.5 359.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:1.8s;animation-duration:4.8s"/><text x="374" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">4</text></g><g class="rise" style="animation-delay:0.60s"><text x="374" y="136" text-anchor="middle" font-size="11" font-weight="700">Test</text><text x="374" y="150" text-anchor="middle" font-size="8.6" class="muted">Debug &amp; validate</text></g><g class="pop" style="animation-delay:0.50s"><polygon points="476.0,81.0 490.8,89.5 490.8,106.5 476.0,115.0 461.2,106.5 461.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="476.0,81.0 490.8,89.5 490.8,106.5 476.0,115.0 461.2,106.5 461.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:2.4s;animation-duration:4.8s"/><text x="476" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">5</text></g><g class="rise" style="animation-delay:0.70s"><text x="476" y="136" text-anchor="middle" font-size="11" font-weight="700">CI/CD</text><text x="476" y="150" text-anchor="middle" font-size="8.6" class="muted">Automated build</text></g><g class="pop" style="animation-delay:0.60s"><polygon points="578.0,81.0 592.8,89.5 592.8,106.5 578.0,115.0 563.2,106.5 563.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="578.0,81.0 592.8,89.5 592.8,106.5 578.0,115.0 563.2,106.5 563.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:3.0s;animation-duration:4.8s"/><text x="578" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">6</text></g><g class="rise" style="animation-delay:0.80s"><text x="578" y="136" text-anchor="middle" font-size="11" font-weight="700">Deploy</text><text x="578" y="150" text-anchor="middle" font-size="8.6" class="muted">Ship to cloud</text></g><g class="pop" style="animation-delay:0.70s"><polygon points="680.0,81.0 694.8,89.5 694.8,106.5 680.0,115.0 665.2,106.5 665.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="680.0,81.0 694.8,89.5 694.8,106.5 680.0,115.0 665.2,106.5 665.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:3.6s;animation-duration:4.8s"/><text x="680" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">7</text></g><g class="rise" style="animation-delay:0.90s"><text x="680" y="136" text-anchor="middle" font-size="11" font-weight="700">Monitor</text><text x="680" y="150" text-anchor="middle" font-size="8.6" class="muted">Track performance</text></g><g class="pop" style="animation-delay:0.80s"><polygon points="782.0,81.0 796.8,89.5 796.8,106.5 782.0,115.0 767.2,106.5 767.2,89.5" fill="#1a1109" stroke="#ff8c42"/><polygon points="782.0,81.0 796.8,89.5 796.8,106.5 782.0,115.0 767.2,106.5 767.2,89.5" fill="#ff8c42" class="step" filter="url(#glow)" style="animation-delay:4.2s;animation-duration:4.8s"/><text x="782" y="102" text-anchor="middle" font-size="11" font-weight="800" fill="#ffb067">8</text></g><g class="rise" style="animation-delay:1.00s"><text x="782" y="136" text-anchor="middle" font-size="11" font-weight="700">Improve</text><text x="782" y="150" text-anchor="middle" font-size="8.6" class="muted">Feedback &amp; iterate</text></g></svg>

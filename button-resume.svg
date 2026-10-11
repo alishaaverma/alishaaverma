@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108" height="44" viewBox="0 0 108 44" fill="none" role="img" aria-label="Resume"><title>Resume</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="1" y="1" width="106" height="42" rx="10" fill="url(#cardg)" stroke="#1f2a38" class=""/><g class="pop"><path d="M19 13h8l5 5v13h-13z" stroke="#ff8c42" stroke-width="1.6"/><path d="M22 22h7M22 25.5h7M22 29h4" stroke="#ff8c42" stroke-width="1.4"/></g><text x="44" y="27" font-size="13" font-weight="700" fill="#e6edf3" class="rise">Resume</text><text x="92" y="27" text-anchor="end" font-size="13" fill="#ff8c42" class="pulse">→</text></svg>

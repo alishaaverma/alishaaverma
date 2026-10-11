@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="262" viewBox="0 0 850 262" fill="none" role="img" aria-label="System Architecture"><title>System Architecture</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="849" height="261" rx="14" fill="url(#bgg)" stroke="#1f2a38"/><rect x="1" y="1" width="848" height="260" rx="14" fill="url(#grid)"/><rect x="1" y="118" width="848" height="143" rx="14" fill="url(#emberg)"/><g class="rise" style="animation-delay:0.00s"><rect x="24" y="20" width="30" height="30" rx="7" fill="#1a1109" stroke="#ff8c42" filter="url(#glow)"/><text x="39.0" y="40.0" text-anchor="middle" font-size="14" font-weight="700" class="orange">06</text><text x="66" y="41" font-size="19" font-weight="700">System Architecture</text><text x="66" y="58" font-size="11" class="muted">Typical architecture for a full-stack web application.</text></g><circle cx="66" cy="152" r="40" fill="#ff8c42" fill-opacity=".12" filter="url(#softglow)" class="glowpulse"/><circle cx="66" cy="152" r="34" stroke="#ff8c42" stroke-opacity=".6" stroke-dasharray="4 4" class="spin"/><g class="pop"><rect x="46" y="136" width="40" height="26" rx="3" fill="#0d1a2b" stroke="#58a6ff"/><rect x="50" y="140" width="32" height="18" rx="1" fill="#58a6ff" opacity=".3"/><path d="M40 164h52l-4 5h-44z" fill="#1d2b3e" stroke="#58a6ff"/></g><text x="66" y="204" text-anchor="middle" font-size="12" font-weight="700">Client</text><text x="66" y="217" text-anchor="middle" font-size="9.5" class="muted">Browser / User</text><path d="M102,152 L140,152" stroke="#ff8c42" stroke-opacity=".25" stroke-width="3.6" fill="none"/><path d="M102,152 L140,152" stroke="#ff8c42" stroke-width="1.6" fill="none" class="flow"/><circle r="3.2" fill="#ffb067" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" path="M102,152 L140,152"/></circle><circle r="3.2" fill="#ffb067" filter="url(#glow)"><animateMotion dur="2.4s" begin="1.20s" repeatCount="indefinite" path="M102,152 L140,152"/></circle><g class="rise" style="animation-delay:0.20s"><rect x="140" y="118" width="150" height="68" rx="9" fill="url(#cardg)" stroke="#ff8c42" stroke-opacity=".55"/><g class="float" style="animation-delay:0.2s"><g filter="url(#glow)"><polygon points="164,138.0 176,144.96 164,151.92 152,144.96" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="152,144.96 164,151.92 164,156.96 152,150.0" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="176,144.96 164,151.92 164,156.96 176,150.0" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="184" y="138" font-size="12" font-weight="700">Frontend</text><text x="184" y="153" font-size="9.5" class="muted">React / Vite</text><text x="184" y="165" font-size="9.5" class="muted">HTML / CSS / JS</text></g><path d="M290,152 L318,152" stroke="#ff8c42" stroke-opacity=".25" stroke-width="3.6" fill="none"/><path d="M290,152 L318,152" stroke="#ff8c42" stroke-width="1.6" fill="none" class="flow"/><circle r="3.2" fill="#ffb067" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" path="M290,152 L318,152"/></circle><circle r="3.2" fill="#ffb067" filter="url(#glow)"><animateMotion dur="2.4s" begin="1.20s" repeatCount="indefinite" path="M290,152 L318,152"/></circle><g class="rise" style="animation-delay:0.35s"><rect x="318" y="118" width="150" height="68" rx="9" fill="url(#cardg)" stroke="#ff8c42" stroke-opacity=".55"/><g class="float" style="animation-delay:0.35s"><g filter="url(#glow)"><polygon points="342,138.0 354,144.96 342,151.92 330,144.96" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="330,144.96 342,151.92 342,156.96 330,150.0" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="354,144.96 342,151.92 342,156.96 354,150.0" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="362" y="138" font-size="12" font-weight="700">API Layer</text><text x="362" y="153" font-size="9.5" class="muted">FastAPI / Django</text><text x="362" y="165" font-size="9.5" class="muted">Authentication</text></g><path d="M468,144 C488,144 475,98 500,98" stroke="#ff8c42" stroke-opacity=".25" stroke-width="3.6" fill="none"/><path d="M468,144 C488,144 475,98 500,98" stroke="#ff8c42" stroke-width="1.6" fill="none" class="flow"/><circle r="3.2" fill="#ffb067" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" path="M468,144 C488,144 475,98 500,98"/></circle><path d="M468,160 C488,160 475,206 500,206" stroke="#58a6ff" stroke-opacity=".25" stroke-width="3.6" fill="none"/><path d="M468,160 C488,160 475,206 500,206" stroke="#58a6ff" stroke-width="1.6" fill="none" class="flow"/><circle r="3.2" fill="#ffb067" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" path="M468,160 C488,160 475,206 500,206"/></circle><g class="rise" style="animation-delay:0.50s"><rect x="500" y="66" width="160" height="64" rx="9" fill="url(#cardg)" stroke="#ff8c42" stroke-opacity=".55"/><g class="float" style="animation-delay:0.5s"><g filter="url(#glow)"><polygon points="524,84.0 536,90.96 524,97.92 512,90.96" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="512,90.96 524,97.92 524,102.96 512,96.0" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="536,90.96 524,97.92 524,102.96 536,96.0" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="544" y="86" font-size="12" font-weight="700">Database</text><text x="544" y="101" font-size="9.5" class="muted">MongoDB / PostgreSQL</text><text x="544" y="113" font-size="9.5" class="muted">Redis (Cache)</text></g><g class="rise" style="animation-delay:0.60s"><rect x="500" y="174" width="160" height="64" rx="9" fill="url(#cardg)" stroke="#58a6ff" stroke-opacity=".55"/><g class="float" style="animation-delay:0.6s"><g filter="url(#glow)"><polygon points="524,192.0 536,198.96 524,205.92 512,198.96" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="512,198.96 524,205.92 524,210.96 512,204.0" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="536,198.96 524,205.92 524,210.96 536,204.0" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="544" y="194" font-size="12" font-weight="700">Cloud</text><text x="544" y="209" font-size="9.5" class="muted">AWS (S3, Lambda, EC2)</text></g><rect x="676" y="66" width="150" height="172" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="rise" style="animation-delay:0.60s"><circle cx="692" cy="88" r="5.5" stroke="#ff8c42" stroke-opacity=".6"/><circle cx="692" cy="88" r="2.4" fill="#ff8c42"/><text x="704" y="92" font-size="9.8" fill="#c9d1d9">Secure Auth (JWT/OAuth)</text></g><g class="rise" style="animation-delay:0.70s"><circle cx="692" cy="114" r="5.5" stroke="#ff8c42" stroke-opacity=".6"/><circle cx="692" cy="114" r="2.4" fill="#ff8c42"/><text x="704" y="118" font-size="9.8" fill="#c9d1d9">RESTful APIs</text></g><g class="rise" style="animation-delay:0.80s"><circle cx="692" cy="140" r="5.5" stroke="#ff8c42" stroke-opacity=".6"/><circle cx="692" cy="140" r="2.4" fill="#ff8c42"/><text x="704" y="144" font-size="9.8" fill="#c9d1d9">Database Optimization</text></g><g class="rise" style="animation-delay:0.90s"><circle cx="692" cy="166" r="5.5" stroke="#ff8c42" stroke-opacity=".6"/><circle cx="692" cy="166" r="2.4" fill="#ff8c42"/><text x="704" y="170" font-size="9.8" fill="#c9d1d9">File Storage (AWS S3)</text></g><g class="rise" style="animation-delay:1.00s"><circle cx="692" cy="192" r="5.5" stroke="#ff8c42" stroke-opacity=".6"/><circle cx="692" cy="192" r="2.4" fill="#ff8c42"/><text x="704" y="196" font-size="9.8" fill="#c9d1d9">Dockerized Deployment</text></g><g class="rise" style="animation-delay:1.10s"><circle cx="692" cy="218" r="5.5" stroke="#ff8c42" stroke-opacity=".6"/><circle cx="692" cy="218" r="2.4" fill="#ff8c42"/><text x="704" y="222" font-size="9.8" fill="#c9d1d9">Scalable Architecture</text></g></svg>

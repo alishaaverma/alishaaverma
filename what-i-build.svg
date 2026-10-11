@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="206" viewBox="0 0 850 206" fill="none" role="img" aria-label="What I Build"><title>What I Build</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="849" height="205" rx="14" fill="url(#bgg)" stroke="#1f2a38"/><rect x="1" y="1" width="848" height="204" rx="14" fill="url(#grid)"/><rect x="1" y="93" width="848" height="112" rx="14" fill="url(#emberg)"/><g class="rise" style="animation-delay:0.00s"><rect x="24" y="20" width="30" height="30" rx="7" fill="#1a1109" stroke="#ff8c42" filter="url(#glow)"/><text x="39.0" y="40.0" text-anchor="middle" font-size="14" font-weight="700" class="orange">04</text><text x="66" y="41" font-size="19" font-weight="700">What I Build</text><text x="66" y="58" font-size="11" class="muted">End-to-end solutions for real world problems</text></g><g class="rise" style="animation-delay:0.15s"><rect x="24" y="70" width="125" height="118" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="float" style="animation-delay:0.0s"><g filter="url(#glow)"><polygon points="54.0,85 69.0,93.7 54.0,102.4 39.0,93.7" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="39.0,93.7 54.0,102.4 54.0,108.7 39.0,100" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="69.0,93.7 54.0,102.4 54.0,108.7 69.0,100" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="36" y="146" font-size="11.5" font-weight="700">Web Applications</text><text x="36" y="162" font-size="9.3" class="muted">Modern, responsive, high</text><text x="36" y="174" font-size="9.3" class="muted">performance web apps</text></g><g class="rise" style="animation-delay:0.25s"><rect x="159" y="70" width="125" height="118" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="float" style="animation-delay:0.4s"><g filter="url(#glow)"><polygon points="189.33333333333331,85 204.33333333333331,93.7 189.33333333333331,102.4 174.33333333333331,93.7" fill="#7cc4ff" fill-opacity=".9" stroke="#a5d6ff" stroke-width=".8"/><polygon points="174.33333333333331,93.7 189.33333333333331,102.4 189.33333333333331,108.7 174.33333333333331,100" fill="#1f6feb" fill-opacity=".85" stroke="#a5d6ff" stroke-width=".8"/><polygon points="204.33333333333331,93.7 189.33333333333331,102.4 189.33333333333331,108.7 204.33333333333331,100" fill="#0d419d" fill-opacity=".9" stroke="#a5d6ff" stroke-width=".8"/></g></g><text x="171" y="146" font-size="11.5" font-weight="700">REST APIs</text><text x="171" y="162" font-size="9.3" class="muted">Secure and scalable APIs</text><text x="171" y="174" font-size="9.3" class="muted">for web and mobile</text></g><g class="rise" style="animation-delay:0.35s"><rect x="295" y="70" width="125" height="118" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="float" style="animation-delay:0.8s"><g filter="url(#glow)"><polygon points="324.66666666666663,85 339.66666666666663,93.7 324.66666666666663,102.4 309.66666666666663,93.7" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="309.66666666666663,93.7 324.66666666666663,102.4 324.66666666666663,108.7 309.66666666666663,100" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="339.66666666666663,93.7 324.66666666666663,102.4 324.66666666666663,108.7 339.66666666666663,100" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="307" y="146" font-size="11.5" font-weight="700">Backend Systems</text><text x="307" y="162" font-size="9.3" class="muted">Business logic, auth,</text><text x="307" y="174" font-size="9.3" class="muted">background processing</text></g><g class="rise" style="animation-delay:0.45s"><rect x="430" y="70" width="125" height="118" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="float" style="animation-delay:1.2000000000000002s"><g filter="url(#glow)"><polygon points="459.99999999999994,85 474.99999999999994,93.7 459.99999999999994,102.4 444.99999999999994,93.7" fill="#7cc4ff" fill-opacity=".9" stroke="#a5d6ff" stroke-width=".8"/><polygon points="444.99999999999994,93.7 459.99999999999994,102.4 459.99999999999994,108.7 444.99999999999994,100" fill="#1f6feb" fill-opacity=".85" stroke="#a5d6ff" stroke-width=".8"/><polygon points="474.99999999999994,93.7 459.99999999999994,102.4 459.99999999999994,108.7 474.99999999999994,100" fill="#0d419d" fill-opacity=".9" stroke="#a5d6ff" stroke-width=".8"/></g></g><text x="442" y="146" font-size="11.5" font-weight="700">Admin Dashboards</text><text x="442" y="162" font-size="9.3" class="muted">Manage content, users</text><text x="442" y="174" font-size="9.3" class="muted">and application data</text></g><g class="rise" style="animation-delay:0.55s"><rect x="565" y="70" width="125" height="118" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="float" style="animation-delay:1.6s"><g filter="url(#glow)"><polygon points="595.3333333333333,85 610.3333333333333,93.7 595.3333333333333,102.4 580.3333333333333,93.7" fill="#ff9d57" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/><polygon points="580.3333333333333,93.7 595.3333333333333,102.4 595.3333333333333,108.7 580.3333333333333,100" fill="#c2410c" fill-opacity=".85" stroke="#ffb067" stroke-width=".8"/><polygon points="610.3333333333333,93.7 595.3333333333333,102.4 595.3333333333333,108.7 610.3333333333333,100" fill="#7c2d12" fill-opacity=".9" stroke="#ffb067" stroke-width=".8"/></g></g><text x="577" y="146" font-size="11.5" font-weight="700">Cloud Solutions</text><text x="577" y="162" font-size="9.3" class="muted">Deploy, scale and</text><text x="577" y="174" font-size="9.3" class="muted">monitor on AWS</text></g><g class="rise" style="animation-delay:0.65s"><rect x="701" y="70" width="125" height="118" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><g class="float" style="animation-delay:2.0s"><g filter="url(#glow)"><polygon points="730.6666666666665,85 745.6666666666665,93.7 730.6666666666665,102.4 715.6666666666665,93.7" fill="#7cc4ff" fill-opacity=".9" stroke="#a5d6ff" stroke-width=".8"/><polygon points="715.6666666666665,93.7 730.6666666666665,102.4 730.6666666666665,108.7 715.6666666666665,100" fill="#1f6feb" fill-opacity=".85" stroke="#a5d6ff" stroke-width=".8"/><polygon points="745.6666666666665,93.7 730.6666666666665,102.4 730.6666666666665,108.7 745.6666666666665,100" fill="#0d419d" fill-opacity=".9" stroke="#a5d6ff" stroke-width=".8"/></g></g><text x="713" y="146" font-size="11.5" font-weight="700">CMS Development</text><text x="713" y="162" font-size="9.3" class="muted">WordPress, Elementor,</text><text x="713" y="174" font-size="9.3" class="muted">WooCommerce</text></g></svg>

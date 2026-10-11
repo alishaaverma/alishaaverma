@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="262" viewBox="0 0 415 262" fill="none" role="img" aria-label="custom-vpn"><title>custom-vpn</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}.draw{animation:draw 2s .3s ease forwards}</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="414" height="261" rx="12" fill="url(#cardg)" stroke="#1f2a38" /><rect x="1" y="1" width="413" height="260" rx="12" fill="url(#grid)"/><g class="fade"><rect x="12" y="12" width="391" height="112" rx="8" fill="#0a0f17" stroke="#1f2a38"/><circle cx="22" cy="21" r="2.6" fill="#ff5f56"/><circle cx="31" cy="21" r="2.6" fill="#ffbd2e"/><circle cx="40" cy="21" r="2.6" fill="#27c93f"/><rect x="52" y="17" width="311" height="8" rx="4" fill="#161d29"/><rect x="18" y="32" width="54" height="86" rx="4" fill="#111823"/><rect x="24" y="40" width="40" height="5" rx="2.5" fill="#3572A5"/><rect x="24" y="53" width="30" height="5" rx="2.5" fill="#243042"/><rect x="24" y="66" width="40" height="5" rx="2.5" fill="#243042"/><rect x="24" y="79" width="30" height="5" rx="2.5" fill="#243042"/><rect x="24" y="92" width="40" height="5" rx="2.5" fill="#243042"/><rect x="80" y="32" width="99" height="26" rx="4" fill="#111823"/><rect x="86" y="40" width="24" height="4" rx="2" fill="#2b3646"/><rect x="86" y="48" width="36" height="5" rx="2" fill="#3572A5" opacity=".8"/><rect x="185" y="32" width="99" height="26" rx="4" fill="#111823"/><rect x="191" y="40" width="24" height="4" rx="2" fill="#2b3646"/><rect x="191" y="48" width="36" height="5" rx="2" fill="#3572A5" opacity=".8"/><rect x="290" y="32" width="99" height="26" rx="4" fill="#111823"/><rect x="296" y="40" width="24" height="4" rx="2" fill="#2b3646"/><rect x="296" y="48" width="36" height="5" rx="2" fill="#3572A5" opacity=".8"/><rect x="80" y="62" width="309" height="56" rx="4" fill="#111823"/><path d="M80,100 L127,90 L174,96 L222,80 L269,86 L316,74 L364,81 L395,69" stroke="#3572A5" stroke-width="2" fill="none" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" class="draw" filter="url(#glow)"/></g><text x="16" y="150" font-size="15" font-weight="700" class="rise" style="animation-delay:0.20s">custom-vpn</text><text x="399" y="150" text-anchor="end" font-size="13" fill="#ff8c42" class="pulse">↗</text><text x="16" y="171" font-size="11" class="muted rise" style="animation-delay:0.30s">A Python project by @alishaaverma.</text><g class="pop" style="animation-delay:0.40s"><rect x="16" y="203" width="54" height="20" rx="5" fill="#111823" stroke="#1f2a38"/><text x="43" y="216.5" text-anchor="middle" font-size="10" fill="#c9d1d9">Python</text></g><g class="fade" style="animation-delay:0.60s"><path transform="translate(16,234) scale(.85)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#ffb067"/><text x="34" y="246" font-size="12" font-weight="700">1</text><path transform="translate(70,234) scale(.85)" d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z" fill="#8b949e"/><text x="87" y="246" font-size="12" font-weight="700">0</text><circle cx="128" cy="242" r="5" fill="#3572A5"/><text x="138" y="246" font-size="11" class="muted">Python</text><text x="399" y="246" text-anchor="end" font-size="10" class="dim mono">updated 1 month ago</text></g></svg>

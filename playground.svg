@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="292" viewBox="0 0 850 292" fill="none" role="img" aria-label="API Playground"><title>API Playground</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="849" height="291" rx="14" fill="url(#bgg)" stroke="#1f2a38"/><rect x="1" y="1" width="848" height="290" rx="14" fill="url(#grid)"/><rect x="1" y="131" width="848" height="160" rx="14" fill="url(#emberg)"/><g class="rise" style="animation-delay:0.00s"><rect x="24" y="20" width="30" height="30" rx="7" fill="#1a1109" stroke="#ff8c42" filter="url(#glow)"/><text x="39.0" y="40.0" text-anchor="middle" font-size="14" font-weight="700" class="orange">13</text><text x="66" y="41" font-size="19" font-weight="700">API Playground</text><text x="66" y="58" font-size="11" class="muted">Live response from this profile&#x27;s own API</text></g><g class="rise" style="animation-delay:0.20s"><rect x="24" y="66" width="250" height="36" rx="8" fill="#1a1109" stroke="#ff8c42" /><rect x="34" y="76" width="34" height="16" rx="4" fill="#3fb950" fill-opacity=".18" stroke="#3fb950"/><text x="51" y="87.5" text-anchor="middle" font-size="8.5" font-weight="800" fill="#3fb950">GET</text><text x="76" y="82" font-size="10.5" class="mono">/api/projects</text><text x="76" y="95" font-size="8.8" class="muted">Get all projects</text></g><g class="rise" style="animation-delay:0.28s"><rect x="24" y="108" width="250" height="36" rx="8" fill="url(#cardg)" stroke="#1f2a38" /><rect x="34" y="118" width="34" height="16" rx="4" fill="#3fb950" fill-opacity=".18" stroke="#3fb950"/><text x="51" y="129.5" text-anchor="middle" font-size="8.5" font-weight="800" fill="#3fb950">GET</text><text x="76" y="124" font-size="10.5" class="mono">/api/github/stats</text><text x="76" y="137" font-size="8.8" class="muted">Get GitHub statistics</text></g><g class="rise" style="animation-delay:0.36s"><rect x="24" y="150" width="250" height="36" rx="8" fill="url(#cardg)" stroke="#1f2a38" /><rect x="34" y="160" width="34" height="16" rx="4" fill="#3fb950" fill-opacity=".18" stroke="#3fb950"/><text x="51" y="171.5" text-anchor="middle" font-size="8.5" font-weight="800" fill="#3fb950">GET</text><text x="76" y="166" font-size="10.5" class="mono">/api/activity</text><text x="76" y="179" font-size="8.8" class="muted">Latest public activity</text></g><g class="rise" style="animation-delay:0.44s"><rect x="24" y="192" width="250" height="36" rx="8" fill="url(#cardg)" stroke="#1f2a38" /><rect x="34" y="202" width="34" height="16" rx="4" fill="#3fb950" fill-opacity=".18" stroke="#3fb950"/><text x="51" y="213.5" text-anchor="middle" font-size="8.5" font-weight="800" fill="#3fb950">GET</text><text x="76" y="208" font-size="10.5" class="mono">/api/experience</text><text x="76" y="221" font-size="8.8" class="muted">Experience timeline</text></g><g class="rise" style="animation-delay:0.52s"><rect x="24" y="234" width="250" height="36" rx="8" fill="url(#cardg)" stroke="#1f2a38" /><rect x="34" y="244" width="34" height="16" rx="4" fill="#3fb950" fill-opacity=".18" stroke="#3fb950"/><text x="51" y="255.5" text-anchor="middle" font-size="8.5" font-weight="800" fill="#3fb950">GET</text><text x="76" y="250" font-size="10.5" class="mono">/api/tech-stack</text><text x="76" y="263" font-size="8.8" class="muted">Get technologies</text></g><rect x="290" y="66" width="536" height="30" rx="7" fill="#0a0e15" stroke="#1f2a38" /><text x="302" y="85" font-size="10.5" font-weight="800" fill="#3fb950">GET</text><text x="334" y="85" font-size="10.5" class="mono">https://api.github.com/users/alishaaverma/repos</text><rect x="720" y="70" width="102" height="22" rx="5" fill="url(#og)" class="glowpulse"/><text x="771" y="85" text-anchor="middle" font-size="10.5" font-weight="800" fill="#1a0d02">Send Request</text><text x="296" y="116" font-size="10.5" fill="#ff8c42" font-weight="700">Response</text><text x="374" y="116" font-size="10.5" fill="#8b949e" font-weight="400">Headers</text><text x="452" y="116" font-size="10.5" fill="#8b949e" font-weight="400">cURL</text><rect x="292" y="121" width="56" height="2" fill="#ff8c42"/><text x="826" y="116" text-anchor="end" font-size="9.5" class="mono fade" style="animation-delay:0.80s"><tspan fill="#3fb950">200 OK</tspan><tspan class="dim">  ·  application/json</tspan></text><rect x="290" y="128" width="536" height="146" rx="8" fill="#0a0e15" stroke="#1f2a38" /><text x="300" y="146.0" font-size="8.5" class="dim mono"> 1</text><text x="320" y="146.0" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.00s">{</text><text x="300" y="158.4" font-size="8.5" class="dim mono"> 2</text><text x="320" y="158.4" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.12s">  <tspan fill="#ff9e64">&quot;status&quot;</tspan>: <tspan fill="#a5d6ff">&quot;success&quot;</tspan>,</text><text x="300" y="170.8" font-size="8.5" class="dim mono"> 3</text><text x="320" y="170.8" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.24s">  <tspan fill="#ff9e64">&quot;total&quot;</tspan>: <tspan fill="#79c0ff">15</tspan>,</text><text x="300" y="183.2" font-size="8.5" class="dim mono"> 4</text><text x="320" y="183.2" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.36s">  <tspan fill="#ff9e64">&quot;projects&quot;</tspan>: [</text><text x="300" y="195.6" font-size="8.5" class="dim mono"> 5</text><text x="320" y="195.6" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.48s">    {<tspan fill="#ff9e64">&quot;name&quot;</tspan>: <tspan fill="#a5d6ff">&quot;custom-vpn&quot;</tspan>, <tspan fill="#ff9e64">&quot;lang&quot;</tspan>: <tspan fill="#a5d6ff">&quot;Python&quot;</tspan>, <tspan fill="#ff9e64">&quot;stars&quot;</tspan>: <tspan fill="#79c0ff">1</tspan>},</text><text x="300" y="208.0" font-size="8.5" class="dim mono"> 6</text><text x="320" y="208.0" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.60s">    {<tspan fill="#ff9e64">&quot;name&quot;</tspan>: <tspan fill="#a5d6ff">&quot;OccasionHub_Project&quot;</tspan>, <tspan fill="#ff9e64">&quot;lang&quot;</tspan>: <tspan fill="#a5d6ff">&quot;Java&quot;</tspan>, <tspan fill="#ff9e64">&quot;stars&quot;</tspan>: <tspan fill="#79c0ff">0</tspan>},</text><text x="300" y="220.4" font-size="8.5" class="dim mono"> 7</text><text x="320" y="220.4" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.72s">    {<tspan fill="#ff9e64">&quot;name&quot;</tspan>: <tspan fill="#a5d6ff">&quot;IcecreamSite&quot;</tspan>, <tspan fill="#ff9e64">&quot;lang&quot;</tspan>: <tspan fill="#a5d6ff">&quot;HTML&quot;</tspan>, <tspan fill="#ff9e64">&quot;stars&quot;</tspan>: <tspan fill="#79c0ff">0</tspan>},</text><text x="300" y="232.8" font-size="8.5" class="dim mono"> 8</text><text x="320" y="232.8" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.84s">    {<tspan fill="#ff9e64">&quot;name&quot;</tspan>: <tspan fill="#a5d6ff">&quot;VideoCompressor&quot;</tspan>, <tspan fill="#ff9e64">&quot;lang&quot;</tspan>: <tspan fill="#ff7b72">null</tspan>, <tspan fill="#ff9e64">&quot;stars&quot;</tspan>: <tspan fill="#79c0ff">0</tspan>}</text><text x="300" y="245.2" font-size="8.5" class="dim mono"> 9</text><text x="320" y="245.2" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:1.96s">  ]</text><text x="300" y="257.6" font-size="8.5" class="dim mono">10</text><text x="320" y="257.6" font-size="10" class="mono fade" fill="#e6edf3" style="animation-delay:2.08s">}</text></svg>

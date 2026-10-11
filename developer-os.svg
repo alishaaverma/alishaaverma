@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="262" viewBox="0 0 850 262" fill="none" role="img" aria-label="Developer OS"><title>Developer OS</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="849" height="261" rx="14" fill="url(#bgg)" stroke="#1f2a38"/><rect x="1" y="1" width="848" height="260" rx="14" fill="url(#grid)"/><rect x="1" y="118" width="848" height="143" rx="14" fill="url(#emberg)"/><g class="rise" style="animation-delay:0.00s"><rect x="24" y="20" width="30" height="30" rx="7" fill="#1a1109" stroke="#ff8c42" filter="url(#glow)"/><text x="39.0" y="40.0" text-anchor="middle" font-size="14" font-weight="700" class="orange">19</text><text x="66" y="41" font-size="19" font-weight="700">Developer OS</text><text x="66" y="58" font-size="11" class="muted">System status and tools I work with</text></g><rect x="24" y="64" width="486" height="180" rx="10" fill="#0a0e15" stroke="#2b3646" /><text x="38" y="86" font-size="11" class="mono"><tspan fill="#3fb950">alishaaverma@dev:~$</tspan><tspan> neofetch</tspan></text><g class="pop" style="animation-delay:0.20s"><rect x="46" y="104" width="96" height="96" rx="18" fill="#140c05" stroke="#ff8c42" filter="url(#glow)"/><path d="M68 136 l18 16 -18 16" stroke="#ffb067" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><rect x="92" y="164" width="28" height="6" rx="3" fill="#ffb067" class="blink"/></g><text x="162" y="110.0" font-size="10.5" class="mono fade" style="animation-delay:0.30s"><tspan fill="#ff8c42" font-weight="700">User      </tspan><tspan fill="#c9d1d9">alishaaverma@github</tspan></text><text x="162" y="125.5" font-size="10.5" class="mono fade" style="animation-delay:0.40s"><tspan fill="#ff8c42" font-weight="700">Name      </tspan><tspan fill="#c9d1d9">Alisha Verma</tspan></text><text x="162" y="141.0" font-size="10.5" class="mono fade" style="animation-delay:0.50s"><tspan fill="#ff8c42" font-weight="700">Location  </tspan><tspan fill="#c9d1d9">Greater Noida, India</tspan></text><text x="162" y="156.5" font-size="10.5" class="mono fade" style="animation-delay:0.60s"><tspan fill="#ff8c42" font-weight="700">Uptime    </tspan><tspan fill="#c9d1d9">6 years, 5 months</tspan></text><text x="162" y="172.0" font-size="10.5" class="mono fade" style="animation-delay:0.70s"><tspan fill="#ff8c42" font-weight="700">Repos     </tspan><tspan fill="#c9d1d9">17 public · ★ 1</tspan></text><text x="162" y="187.5" font-size="10.5" class="mono fade" style="animation-delay:0.80s"><tspan fill="#ff8c42" font-weight="700">Languages </tspan><tspan fill="#c9d1d9">Java, HTML, Python</tspan></text><text x="162" y="203.0" font-size="10.5" class="mono fade" style="animation-delay:0.90s"><tspan fill="#ff8c42" font-weight="700">Network   </tspan><tspan fill="#c9d1d9">6 followers · 12 following</tspan></text><text x="162" y="218.5" font-size="10.5" class="mono fade" style="animation-delay:1.00s"><tspan fill="#ff8c42" font-weight="700">Editor    </tspan><tspan fill="#c9d1d9">VS Code</tspan></text><rect x="162.0" y="222" width="179.6" height="8" rx="2" fill="#b07219" class="grow" style="animation-delay:1.00s"><title>Java: 6 repos</title></rect><rect x="343.1" y="222" width="58.9" height="8" rx="2" fill="#e34c26" class="grow" style="animation-delay:1.12s"><title>HTML: 2 repos</title></rect><rect x="403.5" y="222" width="28.7" height="8" rx="2" fill="#3572A5" class="grow" style="animation-delay:1.24s"><title>Python: 1 repos</title></rect><rect x="433.6" y="222" width="28.7" height="8" rx="2" fill="#3178c6" class="grow" style="animation-delay:1.36s"><title>TypeScript: 1 repos</title></rect><rect x="463.8" y="222" width="28.7" height="8" rx="2" fill="#f1e05a" class="grow" style="animation-delay:1.48s"><title>JavaScript: 1 repos</title></rect><rect x="526" y="64" width="300" height="180" rx="10" fill="url(#cardg)" stroke="#1f2a38" /><text x="540" y="86" font-size="12" font-weight="700">System Status</text><g class="rise" style="animation-delay:0.40s"><text x="540" y="110" font-size="10.5" fill="#c9d1d9">GitHub API</text><circle cx="676" cy="106.5" r="3.5" fill="#3fb950" class="pulse" style="animation-delay:0.0s"/><text x="686" y="110" font-size="10" class="mono" fill="#3fb950">Connected · 295 ms</text></g><g class="rise" style="animation-delay:0.50s"><text x="540" y="131" font-size="10.5" fill="#c9d1d9">Profile API</text><circle cx="676" cy="127.5" r="3.5" fill="#3fb950" class="pulse" style="animation-delay:0.3s"/><text x="686" y="131" font-size="10" class="mono" fill="#3fb950">Online</text></g><g class="rise" style="animation-delay:0.60s"><text x="540" y="152" font-size="10.5" fill="#c9d1d9">Data Sync</text><circle cx="676" cy="148.5" r="3.5" fill="#3fb950" class="pulse" style="animation-delay:0.6s"/><text x="686" y="152" font-size="10" class="mono" fill="#3fb950">Live</text></g><g class="rise" style="animation-delay:0.70s"><text x="540" y="173" font-size="10.5" fill="#c9d1d9">Last Push</text><circle cx="676" cy="169.5" r="3.5" fill="#ffb067" class="pulse" style="animation-delay:0.9s"/><text x="686" y="173" font-size="10" class="mono" fill="#ffb067">12 hours ago</text></g><g class="rise" style="animation-delay:0.80s"><text x="540" y="194" font-size="10.5" fill="#c9d1d9">Last Event</text><circle cx="676" cy="190.5" r="3.5" fill="#ffb067" class="pulse" style="animation-delay:1.2s"/><text x="686" y="194" font-size="10" class="mono" fill="#ffb067">12 hours ago</text></g><g class="rise" style="animation-delay:0.90s"><text x="540" y="215" font-size="10.5" fill="#c9d1d9">Deployment</text><circle cx="676" cy="211.5" r="3.5" fill="#3fb950" class="pulse" style="animation-delay:1.5s"/><text x="686" y="215" font-size="10" class="mono" fill="#3fb950">Ready</text></g><g class="fade" style="animation-delay:1.20s"><circle cx="650.25" cy="252.5" r="3" fill="#3fb950" class="pulse"/><text x="659.25" y="256" font-size="9.5" class="dim mono">live · 11 Oct 2026, 06:17 IST</text></g></svg>
