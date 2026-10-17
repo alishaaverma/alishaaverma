@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="266" viewBox="0 0 850 266" fill="none" role="img" aria-label="Problem to Solution"><title>Problem to Solution</title><style>
+text{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif}
+text:not([fill]){fill:#e6edf3}
+.mono{font-family:'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;white-space:pre}
+.type{clip-path:inset(0 100% 0 0);animation:type .7s steps(14,end) forwards}
+.muted{fill:#8b949e}
+.dim{fill:#56606c}
+.orange{fill:#ff8c42}
+.fade{opacity:0;animation:fade .9s ease forwards}
+.rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+.pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.3,1.5,.5,1) forwards}
+.grow{transform-box:fill-box;transform-origin:left center;transform:scaleX(0);animation:grow 1.4s cubic-bezier(.2,.8,.2,1) forwards}
+.growy{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(0);animation:growy 1.2s cubic-bezier(.2,.8,.2,1) forwards}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.blink{animation:blink 1s step-end infinite}
+.float{transform-box:fill-box;animation:float 4s ease-in-out infinite}
+.flow{stroke-dasharray:6 7;animation:flow 1.1s linear infinite}
+.glowpulse{animation:glowpulse 3s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 24s linear infinite}
+.twinkle{animation:twinkle 3s ease-in-out infinite}
+@keyframes fade{to{opacity:1}}
+@keyframes type{to{clip-path:inset(0 0 0 0)}}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes growy{to{transform:scaleY(1)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes blink{50%{opacity:0}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes flow{to{stroke-dashoffset:-13}}
+@keyframes glowpulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:1}}
+</style><defs>
+<linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#111823"/><stop offset="1" stop-color="#0d121b"/>
+</linearGradient>
+<linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ffb067"/>
+</linearGradient>
+<linearGradient id="bgg" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0b1018"/><stop offset="1" stop-color="#070a10"/>
+</linearGradient>
+<radialGradient id="emberg" cx=".5" cy="1" r=".9">
+  <stop offset="0" stop-color="#ff6a00" stop-opacity=".16"/><stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="6"/>
+</filter>
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+  <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+</pattern>
+</defs><rect x="0.5" y="0.5" width="849" height="265" rx="14" fill="url(#bgg)" stroke="#1f2a38"/><rect x="1" y="1" width="848" height="264" rx="14" fill="url(#grid)"/><rect x="1" y="120" width="848" height="145" rx="14" fill="url(#emberg)"/><g class="rise" style="animation-delay:0.00s"><rect x="24" y="20" width="30" height="30" rx="7" fill="#1a1109" stroke="#ff8c42" filter="url(#glow)"/><text x="39.0" y="40.0" text-anchor="middle" font-size="14" font-weight="700" class="orange">18</text><text x="66" y="41" font-size="19" font-weight="700">Problem → Solution</text><text x="66" y="58" font-size="11" class="muted">Real world problems and how I solve them.</text></g><g class="rise" style="animation-delay:0.15s"><rect x="24" y="70" width="802" height="24" rx="6" fill="url(#cardg)" stroke="#1f2a38" /><circle cx="40" cy="82" r="4" fill="#ff7b72"/><text x="52" y="86" font-size="11" fill="#c9d1d9">Slow API Performance</text><path d="M300,82 L380,82" stroke="#ff8c42" class="flow"/><path d="M376,78 l6,4 -6,4" stroke="#ff8c42" stroke-width="1.6" fill="none"/><circle cx="402" cy="82" r="4" fill="#3fb950" class="pulse"/><text x="414" y="86" font-size="11" fill="#ffb067">API optimization &amp; caching</text></g><g class="rise" style="animation-delay:0.25s"><rect x="24" y="100" width="802" height="24" rx="6" fill="url(#cardg)" stroke="#1f2a38" /><circle cx="40" cy="112" r="4" fill="#ff7b72"/><text x="52" y="116" font-size="11" fill="#c9d1d9">Complex UI Requirements</text><path d="M300,112 L380,112" stroke="#ff8c42" class="flow"/><path d="M376,108 l6,4 -6,4" stroke="#ff8c42" stroke-width="1.6" fill="none"/><circle cx="402" cy="112" r="4" fill="#3fb950" class="pulse"/><text x="414" y="116" font-size="11" fill="#ffb067">Reusable components &amp; clean architecture</text></g><g class="rise" style="animation-delay:0.35s"><rect x="24" y="130" width="802" height="24" rx="6" fill="url(#cardg)" stroke="#1f2a38" /><circle cx="40" cy="142" r="4" fill="#ff7b72"/><text x="52" y="146" font-size="11" fill="#c9d1d9">Authentication &amp; Security</text><path d="M300,142 L380,142" stroke="#ff8c42" class="flow"/><path d="M376,138 l6,4 -6,4" stroke="#ff8c42" stroke-width="1.6" fill="none"/><circle cx="402" cy="142" r="4" fill="#3fb950" class="pulse"/><text x="414" y="146" font-size="11" fill="#ffb067">JWT, OAuth, RBAC</text></g><g class="rise" style="animation-delay:0.45s"><rect x="24" y="160" width="802" height="24" rx="6" fill="url(#cardg)" stroke="#1f2a38" /><circle cx="40" cy="172" r="4" fill="#ff7b72"/><text x="52" y="176" font-size="11" fill="#c9d1d9">Data Management</text><path d="M300,172 L380,172" stroke="#ff8c42" class="flow"/><path d="M376,168 l6,4 -6,4" stroke="#ff8c42" stroke-width="1.6" fill="none"/><circle cx="402" cy="172" r="4" fill="#3fb950" class="pulse"/><text x="414" y="176" font-size="11" fill="#ffb067">Database design &amp; optimization</text></g><g class="rise" style="animation-delay:0.55s"><rect x="24" y="190" width="802" height="24" rx="6" fill="url(#cardg)" stroke="#1f2a38" /><circle cx="40" cy="202" r="4" fill="#ff7b72"/><text x="52" y="206" font-size="11" fill="#c9d1d9">Deployment Issues</text><path d="M300,202 L380,202" stroke="#ff8c42" class="flow"/><path d="M376,198 l6,4 -6,4" stroke="#ff8c42" stroke-width="1.6" fill="none"/><circle cx="402" cy="202" r="4" fill="#3fb950" class="pulse"/><text x="414" y="206" font-size="11" fill="#ffb067">Docker + AWS + CI/CD</text></g><g class="rise" style="animation-delay:0.65s"><rect x="24" y="220" width="802" height="24" rx="6" fill="url(#cardg)" stroke="#1f2a38" /><circle cx="40" cy="232" r="4" fill="#ff7b72"/><text x="52" y="236" font-size="11" fill="#c9d1d9">Manual Processes</text><path d="M300,232 L380,232" stroke="#ff8c42" class="flow"/><path d="M376,228 l6,4 -6,4" stroke="#ff8c42" stroke-width="1.6" fill="none"/><circle cx="402" cy="232" r="4" fill="#3fb950" class="pulse"/><text x="414" y="236" font-size="11" fill="#ffb067">Automation &amp; integrations</text></g></svg>
