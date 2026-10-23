@@ -40,6 +40,8 @@
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/now-building.svg" width="100%" alt="Now Building: the repository I am working on right now"/>
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/coding-dna.svg" width="100%" alt="Coding DNA: when I code, and art generated from my commits"/>
+
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/architecture.svg" width="100%" alt="System Architecture"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/timeline.svg" width="100%" alt="My Journey and Open Source Activity"/>
