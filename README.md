@@ -38,9 +38,11 @@
 <!-- PROJECTS:END -->
 </p>
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/now-building.svg" width="100%" alt="Now Building: the repository I am working on right now"/>
+
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/architecture.svg" width="100%" alt="System Architecture"/>
 
-<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/timeline.svg" width="100%" alt="Experience Timeline and Open Source Activity"/>
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/timeline.svg" width="100%" alt="My Journey and Open Source Activity"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/analytics.svg" width="100%" alt="GitHub Analytics and Currently Exploring"/>
 
@@ -48,15 +50,7 @@
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/playground.svg" width="100%" alt="API Playground"/>
 
-<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/backend.svg" width="100%" alt="Backend Engineering and Database Architecture"/>
-
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/cloud.svg" width="100%" alt="Cloud and Deployment"/>
-
-<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/workflow.svg" width="100%" alt="Developer Workflow"/>
-
-<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/problem-solution.svg" width="100%" alt="Problem to Solution"/>
-
-<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/developer-os.svg" width="100%" alt="Developer OS"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/achievements.svg" width="100%" alt="Achievements"/>
 
