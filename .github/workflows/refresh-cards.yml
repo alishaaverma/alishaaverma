@@ -6,8 +6,7 @@ name: Refresh profile cards
 on:
   schedule:
     # hh:01, hh:16, hh:31, hh:46 IST (cron is UTC; IST = UTC+5:30)
-    - cron: "31,46 * * * *"
-    - cron: "1,16 * * * *"
+    - cron: "1,16,31,46 * * * *"
   workflow_dispatch:
 
 permissions:
