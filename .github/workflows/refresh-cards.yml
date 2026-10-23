@@ -1,0 +1,36 @@
+name: Refresh profile cards
+
+# GitHub often starts scheduled runs late (or drops them), so instead of one cron in the private
+# profile-api repo, this public repo (free Actions minutes) checks four times an hour and asks
+# profile-api to re-render the cards if this IST hour's cards aren't out yet.
+on:
+  schedule:
+    # hh:01, hh:16, hh:31, hh:46 IST (cron is UTC; IST = UTC+5:30)
+    - cron: "31,46 * * * *"
+    - cron: "1,16 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Re-render unless this hour's cards are already out
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_API_TOKEN }} # fine-grained PAT: profile-api, Actions read and write
+          CARDS: alishaaverma/profile-api
+        run: |
+          hour() { TZ=Asia/Kolkata date -d "$1" +%Y-%m-%dT%H; }
+          rendered=$(GH_TOKEN=${{ github.token }} gh api "repos/${{ github.repository }}/branches/output" --jq .commit.commit.committer.date)
+          if [ "$(hour "$rendered")" = "$(hour now)" ]; then
+            echo "Cards already rendered this hour ($rendered)"; exit 0
+          fi
+          busy=$(gh api "repos/$CARDS/actions/workflows/profile-cards.yml/runs?per_page=5" \
+                 --jq '[.workflow_runs[] | select(.status != "completed")] | length')
+          if [ "$busy" != "0" ]; then
+            echo "A render is already queued or running"; exit 0
+          fi
+          gh workflow run profile-cards.yml -R "$CARDS"
+          echo "Asked $CARDS to render (last render: $rendered)"
