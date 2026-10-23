@@ -38,9 +38,15 @@
 <!-- PROJECTS:END -->
 </p>
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/rajdhani.svg" width="100%" alt="Rajdhani Express: every coach is one of my repos"/>
+
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/now-building.svg" width="100%" alt="Now Building: the repository I am working on right now"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/coding-dna.svg" width="100%" alt="Coding DNA: when I code, and art generated from my commits"/>
+
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/thali.svg" width="100%" alt="Tech Thali: my languages served by how much code I wrote in each"/>
+
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/desi-corner.svg" width="100%" alt="Desi Dev Corner: aaj ka rashifal, chai-o-meter and commit mood ring"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/community.svg" width="100%" alt="Community Corner: vote on what I build next, and ask me anything"/>
 
