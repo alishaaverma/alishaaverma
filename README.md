@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/alishaaverma"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/hero.svg" width="100%" alt="Alisha Verma — Full Stack Software Developer"/></a>
+  <img src="https://komarev.com/ghpvc/?username=alishaaverma" width="1" height="1" alt=""/>
 </p>
 
 <p align="center">
@@ -40,6 +41,8 @@
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/rajdhani.svg" width="100%" alt="Rajdhani Express: every coach is one of my repos"/>
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/metro.svg" width="100%" alt="Delhi Metro: one line per language, a station for every repo"/>
+
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/now-building.svg" width="100%" alt="Now Building: the repository I am working on right now"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/coding-dna.svg" width="100%" alt="Coding DNA: when I code, and art generated from my commits"/>
@@ -47,6 +50,12 @@
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/thali.svg" width="100%" alt="Tech Thali: my languages served by how much code I wrote in each"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/desi-corner.svg" width="100%" alt="Desi Dev Corner: aaj ka rashifal, chai-o-meter and commit mood ring"/>
+
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/report-card.svg" width="100%" alt="Report Card: weekly, monthly and yearly grades from my contributions"/>
+
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/cricket.svg" width="100%" alt="Commit Premier League: this week chases last week, one over a day"/>
+
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/dainik-commit.svg" width="100%" alt="Dainik Commit: today's front page of my GitHub"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/community.svg" width="100%" alt="Community Corner: vote on what I build next, and ask me anything"/>
 
