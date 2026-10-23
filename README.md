@@ -17,9 +17,13 @@
   -->
 </p>
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/city.svg" width="100%" alt="Contribution City: every building is one day of my last year on GitHub"/>
+
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/about.svg" width="100%" alt="About Me"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/tech-stack.svg" width="100%" alt="Tech Stack"/>
+
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/smart-contracts.svg" width="100%" alt="Smart Contract Lab: Solidity and Web3"/>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/what-i-build.svg" width="100%" alt="What I Build"/>
 
