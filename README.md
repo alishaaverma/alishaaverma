@@ -13,6 +13,7 @@
 <!-- CONTACT:START (rewritten every hour from the links on my GitHub profile) -->
   <a href="https://github.com/alishaaverma?tab=repositories"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-view-my-work.svg" height="44" alt="View My Work"/></a>
   <a href="https://github.com/alishaaverma"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-github.svg" height="44" alt="GitHub"/></a>
+  <a href="https://www.linkedin.com/in/alisha-verma-1b8126223"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-linkedin.svg" height="44" alt="LinkedIn"/></a>
 <!-- CONTACT:END -->
 </p>
 
