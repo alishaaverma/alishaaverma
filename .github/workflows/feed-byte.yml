@@ -1,0 +1,27 @@
+name: Feed Byte
+
+# Visitors feed Byte (the pet in Contribution City) by opening an issue titled
+# "Feed Byte ...". This thanks them and closes the issue; the profile cards count
+# these issues on their next hourly render.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  feed:
+    if: startsWith(github.event.issue.title, 'Feed Byte')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Thank the visitor and close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          ISSUE: ${{ github.event.issue.number }}
+          FEEDER: ${{ github.event.issue.user.login }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$REPO" \
+            --body "Nom nom! 🍪 Thanks @$FEEDER — Byte will show your cookie in Contribution City within the hour."
+          gh issue close "$ISSUE" --repo "$REPO" --reason completed
