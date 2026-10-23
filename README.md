@@ -3,18 +3,17 @@
   GitHub Actions workflow and published to the `output` branch of this repo.
 -->
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/tldr.svg" width="100%" alt="TL;DR: Full Stack Developer + Solidity, Noida, open to work"/>
+
 <p align="center">
   <a href="https://github.com/alishaaverma"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/hero.svg" width="100%" alt="Alisha Verma — Full Stack Software Developer"/></a>
 </p>
 
 <p align="center">
+<!-- CONTACT:START (rewritten every hour from the links on my GitHub profile) -->
   <a href="https://github.com/alishaaverma?tab=repositories"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-view-my-work.svg" height="44" alt="View My Work"/></a>
   <a href="https://github.com/alishaaverma"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-github.svg" height="44" alt="GitHub"/></a>
-  <!-- Add your links, then uncomment:
-  <a href="https://www.linkedin.com/in/YOUR-ID"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-linkedin.svg" height="44" alt="LinkedIn"/></a>
-  <a href="mailto:YOU@example.com"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-email.svg" height="44" alt="Email"/></a>
-  <a href="https://link-to-your-resume.pdf"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-resume.svg" height="44" alt="Resume"/></a>
-  -->
+<!-- CONTACT:END -->
 </p>
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/city.svg" width="100%" alt="Contribution City: every building is one day of my last year on GitHub"/>
