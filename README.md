@@ -42,6 +42,13 @@
 
 <img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/coding-dna.svg" width="100%" alt="Coding DNA: when I code, and art generated from my commits"/>
 
+<img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/community.svg" width="100%" alt="Community Corner: vote on what I build next, and ask me anything"/>
+
+<p align="center">
+  <a href="https://github.com/alishaaverma/alishaaverma/issues?q=is%3Aissue%20is%3Aopen%20label%3Aidea"><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-vote.svg" height="44" alt="Vote on an idea"/></a>
+  <a href="https://github.com/alishaaverma/alishaaverma/issues/new?title=AMA%3A%20&body=Ask%20me%20anything%20%E2%80%94%20I%27ll%20answer%20in%20a%20comment%20and%20it%20shows%20up%20on%20my%20profile."><img src="https://raw.githubusercontent.com/alishaaverma/alishaaverma/output/button-ama.svg" height="44" alt="Ask me anything"/></a>
+</p>
+
 <details>
 <summary><b>🔍 Explore more about me</b> — tech stack, what I build, architecture, journey, analytics, activity, achievements</summary>
 <br/>
